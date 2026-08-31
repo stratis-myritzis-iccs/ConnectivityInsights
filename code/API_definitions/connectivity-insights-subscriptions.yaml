@@ -758,7 +758,7 @@ components:
             If no value is provided, the current date and time is used and network
             data for the monitoring data aggregation is used to check network
             performance against the application profile defined.
-            It must follow ISO 8601 Durations.
+            It must follow [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339#appendix-A) for duration.
             Examples:
             - PT10S = 10 seconds ahead
             - PT1M  = 1 minute ahead
